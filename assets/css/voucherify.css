@@ -1,0 +1,84 @@
+.woocommerce-checkout .vcrf_promotion_dropdown_wrapper select {
+    width: 100%;
+    margin: 0 0 1.41575em;
+}
+
+.woocommerce-checkout #vcrf_apply_promotion {
+    width: 100%;
+    margin-right: 0;
+}
+
+.woocommerce-checkout .form-row .button[name=apply_coupon] {
+    width: 100%;
+}
+
+.woocommerce-cart #coupon_code, .woocommerce-cart #vcrf_promotion_code, .woocommerce-cart table.cart td.actions input .vcrf_apply_promotion, .woocommerce-cart table.cart td.actions [name=apply_coupon] {
+    width: 100%;
+    margin-top: 2px;
+}
+
+.woocommerce-cart #vcrf_apply_promotion {
+    margin: 0 0 1.41575em
+}
+
+/* over xxx px */
+@media (min-width: 768px) {
+    .woocommerce-cart #coupon_code, .woocommerce-cart #vcrf_promotion_code, .woocommerce-cart table.cart td.actions .vcrf_apply_promotion, .woocommerce-cart table.cart td.actions [name=apply_coupon] {
+        width: 200px;
+    }
+
+    .woocommerce-checkout .vcrf_promotion_dropdown_wrapper select {
+        width: 47.0588235294%;
+        float: left;
+        margin-right: 5.8823529412%;
+        clear: both;
+    }
+
+    .woocommerce-checkout #vcrf_apply_promotion {
+        width: 47.0588235294%;
+        float: right;
+        margin-right: 0;
+    }
+}
+
+.vcrf_form_wrapper {
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.vcrf_banners_list {
+    display: none;
+}
+
+.vcrf_promotion_code {
+    width: auto;
+    margin: 0;
+    padding: .6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .125);
+}
+
+.vcrf_promotion_dropdown .vcrf_form_wrapper,
+.vcrf_promotion_dropdown .vcrf_form_wrapper .vcrf_promotion_dropdown_wrapper,
+.vcrf_promotion_dropdown .vcrf_form_wrapper .vcrf_available_promotions {
+    display: none;
+}
+
+.vcrf_promotion_dropdown .vcrf_form_wrapper .vcrf_available_promotions {
+    margin-top: 0.5rem;
+}
+
+.vcrf_form_wrapper h2 {
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.woocommerce-js .hide-for-js, .woocommerce-no-js .hide-for-js {
+    display: none;
+}

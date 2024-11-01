@@ -1,0 +1,18 @@
+.wc-used-coupons:not(.wc-used-vcrf-coupons) {
+    display: none;
+}
+
+.wp-core-ui .button-delete {
+    background: #a00;
+    border-color: #a00;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+#saving-btns-after-keys-change {
+    display: none;
+    background-color: #ffcdcd;
+    padding: 16px;
+    border: 6px solid #da0000;
+}

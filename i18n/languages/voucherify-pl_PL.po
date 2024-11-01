@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Polski\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-02-10 11:17+0100\n"
+"PO-Revision-Date: 2024-06-02 18:08+0000\n"
+"Language: pl_PL\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ../../../../xampp/htdocs/voucherify/wp-"
+"content/plugins/voucherify\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3"
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionFormListener.php:62
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionRestRouteHandler.php:50
+#, php-format
+msgid "%s applied successfully."
+msgstr "Zastosowano %s."
+
+#: partials/promotion-form.php:51
+msgid "(hide)"
+msgstr "(ukryj)"
+
+#: partials/promotion-form.php:50
+msgid "(show)"
+msgstr "(pokaż)"
+
+#: partials/promotion-form.php:36
+msgid "-- Select promotion --"
+msgstr "-- Wybierz promocję --"
+
+#: src/Voucherify/Wordpress/Synchronization/Handlers/SynchronizationHandler.php:174
+msgid "<strong>Voucherify</strong> is <strong>desynchronized</strong>."
+msgstr "<strong>Voucherify</strong> jest <strong>zdesynchronizowane</strong>."
+
+#: src/functions.php:33
+msgid ""
+"<strong>Voucherify</strong> is <strong>disabled</strong>. You are currently "
+"using <strong>core WooCommerce coupons</strong>."
+msgstr ""
+"<strong>Plugin Voucherify</strong> jest <strong>wyłączony</strong>. Obecnie "
+"używasz <strong>domyślnego systemu kuponów WooCommerce</strong>."
+
+#: src/functions.php:21
+msgid ""
+"<strong>Voucherify</strong> requires <strong>WooCommerce</strong> plugin "
+"enabled."
+msgstr ""
+"Plugin <strong>Voucherify</strong> do poprawnego działania wymaga "
+"zainstalowanego i aktywowanego pluginu <strong>WooCommerce</strong>."
+
+#: partials/admin-form.php:179
+#| msgid ""
+#| "<strong>WARNING: Resynchronization may take up to couple minutes</strong>"
+msgid ""
+"<strong>Warning: Resynchronization may take up to couple minutes</strong>"
+msgstr "<strong>Uwaga: Resynchronizacja może potrwać kilka minut</strong>"
+
+#: assets/js/src/vouchers.js:34
+msgid "Add coupon or gift card"
+msgstr "Dodaj kod rabatowy lub kartę podarunkową"
+
+#: partials/promotion-form.php:49
+msgid "All available promotions"
+msgstr "Wszystkie dostępne promocje"
+
+#: partials/admin-form.php:64
+msgid "Api Endpoint"
+msgstr ""
+
+#: partials/admin-form.php:41
+msgid "App ID"
+msgstr ""
+
+#: partials/admin-form.php:51
+msgid "App Secret Key"
+msgstr ""
+
+#: assets/js/src/applied-vouchers-list.js:33
+msgid "Applied coupons"
+msgstr "Dodane kody rabatowe"
+
+#: assets/js/src/applied-gift-cards-list.js:33
+msgid "Applied gift cards"
+msgstr "Dodane karty podarunkowe"
+
+#: assets/js/src/applied-promotions-list.js:33
+msgid "Applied promotions"
+msgstr "Dodane promocje"
+
+#: partials/admin-form.php:128
+msgid "Apply coupons on renewal orders (up to their limits)"
+msgstr ""
+"Aplikuj kody rabatowe do zamówień odnawiających subskrypcję (do limitu ich "
+"użycia)"
+
+#: partials/promotion-form.php:45
+msgid "Apply promotion"
+msgstr "Zastosuj promocję"
+
+#: assets/js/src/gift-vouchers.js:91
+msgid "Available balance"
+msgstr "Dostępne saldo"
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherOrderVoucherService.php:127
+#, php-format
+msgid "Code %s was not valid anymore and it has been removed."
+msgstr ""
+"Kod rabatowy %s został usunięty, ponieważ nie można było go zaaplikować do "
+"tego zamówienia."
+
+#: src/Voucherify/Wordpress/Synchronization/Services/CustomerService.php:59
+msgid "Couldn't delete customer"
+msgstr "Nie można usunąć klienta"
+
+#: src/Voucherify/Wordpress/Synchronization/Services/CustomerService.php:42
+msgid "Couldn't save customer"
+msgstr "Nie można zapisać klienta"
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherFormsListener.php:59
+msgid "Coupon added"
+msgstr "Kod rabatowy dodany"
+
+#: partials/checkout-form-coupon.php:11
+msgid "Coupon code"
+msgstr "Kod rabatowy"
+
+#: assets/js/src/use-store-cart-vouchers.js:261
+#, javascript-format
+msgid "Coupon code \"%s\" has been applied."
+msgstr "Kod rabatowy \"%s\" został dodany."
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherCartService.php:67
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherCartService.php:78
+#, php-format
+msgid "Coupon code %s already applied!"
+msgstr "Kod rabatowy %s został już wcześniej zaaplikowany!"
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherCartService.php:74
+#, php-format
+msgid "Coupon code %s applied successfully."
+msgstr "Kod rabatowy %s został pomyślnie zaaplikowany."
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherRestRouteHandler.php:118
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardsRestRouteHandler.php:97
+#, php-format
+msgid "Coupon code %s removed."
+msgstr "Kod rabatowy %s został usunięty."
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherRestRouteHandler.php:105
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardsRestRouteHandler.php:84
+#, php-format
+msgid "Coupon code %s was not applied."
+msgstr "Kod rabatowy %s nie został zaaplikowany."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionCartService.php:74
+msgid "Coupon code already applied!"
+msgstr "Kod rabatowy został już wcześniej zaaplikowany."
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherFormsListener.php:74
+msgid "Coupon removed"
+msgstr "Kod rabatowy został usunięty."
+
+#: partials/cart-form-coupon.php:6
+msgid "Coupon:"
+msgstr "Kod rabatowy:"
+
+#: partials/admin-form.php:105
+msgid "days"
+msgstr "dni"
+
+#: src/Voucherify/Wordpress/Handlers/CartTotalsHandler.php:320
+#, php-format
+msgctxt "Discount applied (<coupon code>): <amount>"
+msgid "Discount applied (%s): %s"
+msgstr "Zaaplikowany rabat (%s): %s"
+
+#: assets/js/src/gift-vouchers.js:107
+msgid "Enter amount to apply"
+msgstr "Podaj kwotę"
+
+#: assets/js/src/regular-vouchers.js:72
+msgid "Enter code"
+msgstr "Wpisz kod"
+
+#: assets/js/src/gift-vouchers.js:83
+msgid "Gift card"
+msgstr "Karta podarunkowa"
+
+#: assets/js/src/use-store-cart-vouchers.js:294
+#, javascript-format
+msgid "Gift card \"%s\" has been applied with amount %s."
+msgstr "Karta podarunkowa \"%s\" została dodana na kwotę %s."
+
+#. %s coupon code.
+#: assets/js/src/use-store-cart-vouchers.js:181
+#, javascript-format
+msgid "Gift card \"%s\" has been removed from your cart."
+msgstr "Karta podarunkowa \"%s\" została usunięta z Twojego koszyka."
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardOrderVoucherService.php:125
+#, php-format
+msgid "Gift card %s was not valid anymore and it has been removed."
+msgstr ""
+"Karta podarunkowa %s została usunięta, ponieważ nie można było jej "
+"zaaplikować do tego zamówienia."
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardFormListener.php:59
+msgid "Gift card added"
+msgstr "Dodano kartę podarunkową"
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardCartService.php:63
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardCartService.php:80
+msgid "Gift card already applied!"
+msgstr "Karta podarunkowa została już wcześniej dodana!"
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardFormListener.php:73
+msgid "Gift card removed"
+msgstr "Usunięto kartę podarunkową"
+
+#. %s Coupon code.
+#: assets/js/src/applied-gift-cards-list.js:48
+#, javascript-format
+msgid "Gift card: %s"
+msgstr "Karta podarunkowa: %s"
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardFormRenderer.php:211
+msgid "Gift cards"
+msgstr "Karty podarunkowe"
+
+#: partials/checkout-form-coupon.php:2
+msgid "Have a coupon?"
+msgstr "Posiadasz kod rabatowy?"
+
+#: src/Voucherify/Wordpress/Handlers/UnlockOrderHandler.php:62
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "godzina"
+msgstr[1] "godzin(y)"
+
+#: partials/admin-form.php:107
+msgid "hours"
+msgstr "godzin"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/voucherify/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.rspective.com/"
+msgstr ""
+
+#: src/Voucherify/Wordpress/Blocks/BlockifiedCartIntegration.php:91
+msgid "I want to receive updates about products and promotions."
+msgstr "Chcę otrzymywać informacje na temat produktów i promocji."
+
+#: partials/admin-form.php:177
+msgid ""
+"If you are not changing a Voucherify project, you do not have to "
+"resynchronize your data."
+msgstr ""
+"Jeśli nie zmieniasz projektu w Voucherify, nie musisz synchronizować danych."
+
+#: partials/checkout-form-coupon.php:7
+msgid "If you have a coupon code, please apply it below."
+msgstr "Jeśli posiadasz kod rabatowy, dodaj go proszę poniżej."
+
+#: partials/admin-form.php:176
+msgid ""
+"If you have changed your App ID and/or App Secret Key, because you want to "
+"change a Voucherify project, resynchronize all your products, SKUs, "
+"customers, and orders to migrate this data to Voucherify."
+msgstr ""
+"Jeśli zmieniasz token App ID lub App Secret Key, ponieważ zmieniasz projekt "
+"w Voucherify, zsynchronizuj ponownie wszystkie produkty, SKU, klientów i "
+"zamówienia, aby dodać te dane do Voucherify."
+
+#. Description of the plugin
+msgid ""
+"Integrates Voucherify API with woocommerce replacing core coupons "
+"functionality"
+msgstr ""
+"Integruje API Voucherify z Woocommerce zastępując domyślną funkcjonalność "
+"kuponów."
+
+#: partials/admin-form.php:93
+msgid "Length of coupon validity time window after application"
+msgstr "Długość okna czasowego ważności kuponu po jego zastosowaniu"
+
+#: src/Voucherify/Wordpress/Handlers/UnlockOrderHandler.php:63
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuta"
+msgstr[1] "minut(y)"
+
+#: partials/admin-form.php:109
+msgid "minutes"
+msgstr "minuty"
+
+#: partials/admin-form.php:73
+msgid "More info about endpoints:"
+msgstr "Więcej informacji na temat punktów końcowych:"
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherRestRouteHandler.php:41
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherFormsListener.php:34
+msgid "Please provide a valid code."
+msgstr "Proszę podać prawidłowy kod rabatowy."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionFormListener.php:63
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionRestRouteHandler.php:51
+msgid "Promotion"
+msgstr "Promocja"
+
+#: assets/js/src/use-store-cart-vouchers.js:329
+#, javascript-format
+msgid "Promotion \"%s\" has been applied."
+msgstr "Promocja \"%s\" została dodana."
+
+#. %s coupon code.
+#: assets/js/src/use-store-cart-vouchers.js:215
+#, javascript-format
+msgid "Promotion \"%s\" has been removed from your cart."
+msgstr "Promocja \"%s\" została usunięta z Twojego koszyka."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionRestRouteHandler.php:102
+#, php-format
+msgid "Promotion %s removed."
+msgstr "Promocja %s została usunięta."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionRestRouteHandler.php:89
+#, php-format
+msgid "Promotion %s was not applied."
+msgstr "Promocja %s nie została zaaplikowana."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionOrderVoucherService.php:108
+#, php-format
+msgid "Promotion %s was not valid anymore and it has been removed."
+msgstr ""
+"Promocja %s została usunięta, ponieważ nie można było jej zaaplikować do "
+"tego zamówienia."
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherCartService.php:81
+msgid "Promotion already applied!"
+msgstr "Promocja jest już zaaplikowana!"
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionCartService.php:61
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionCartService.php:71
+msgid "Promotion code already applied!"
+msgstr "Promocja jest już zaaplikowana!"
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionCartService.php:68
+msgid "Promotion code applied successfully."
+msgstr "Promocja została zaaplikowana."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionFormListener.php:73
+msgid "Promotion has not been accepted thus a discount will not be applied."
+msgstr "Promocja nie została zakceptowana, dlatego nie zastosowano rabatu."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionFormListener.php:85
+msgid "Promotion removed"
+msgstr "Promocja została usunięta."
+
+#. %s Coupon code.
+#: assets/js/src/applied-promotions-list.js:52
+#, javascript-format
+msgid "Promotion: %s"
+msgstr "Promocja: %s"
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardFormRenderer.php:173
+msgid "Recurring total to pay"
+msgstr "Do zapłaty przy kolejnych odnowieniach"
+
+#. %s is a coupon code.
+#: assets/js/src/applied-gift-cards-list.js:56
+#, javascript-format
+msgid "Remove gift card \"%s\""
+msgstr "Usuń kartę podarunkową \"%s\""
+
+#. %s is a coupon code.
+#: assets/js/src/applied-promotions-list.js:60
+#, javascript-format
+msgid "Remove promotion \"%s\""
+msgstr "Usuń promocję \"%s\""
+
+#: partials/admin-form.php:159 partials/admin-form.php:168
+#, fuzzy
+#| msgid "Resynchronize All"
+msgid "Resynchronize all"
+msgstr "Zsynchronizuj wszystko ponownie"
+
+#: partials/admin-form.php:161
+msgid ""
+"Resynchronize all existing products, SKUs, customers, and orders, including "
+"those that have been already synchronized."
+msgstr ""
+"Zsynchronizuj ponownie wszystkie istniejące produkty, SKU, klientów i "
+"zamówienia w tym te, które zostały już zsynchronizowane."
+
+#: partials/admin-order-item-partial-refund-rollback.php:3
+msgid "Rollback voucher redemption"
+msgstr "Cofnięcie wykorzystania kuponu."
+
+#. Author of the plugin
+msgid "rspective"
+msgstr ""
+
+#: partials/admin-form.php:182
+msgid "Save changes and resynchronize"
+msgstr "Zapisz zmiany i zsynchronizuj ponownie"
+
+#: partials/admin-form.php:181
+msgid "Save Changes without resynchronization"
+msgstr "Zapisz zmiany bez synchronizacji"
+
+#: src/Voucherify/Wordpress/Handlers/UnlockOrderHandler.php:64
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "sekunda"
+msgstr[1] "sekund(y)"
+
+#: assets/js/src/promotions-form.js:142
+msgid "Select available promotion"
+msgstr "Wybierz dostępną promocję"
+
+#: assets/js/src/vouchers.js:22
+msgid "Select promotion"
+msgstr "Wybierz promocję"
+
+#: assets/js/src/promotions-form.js:22
+msgid "Show all promotions"
+msgstr "Pokaż wszystkie promocje"
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardCartService.php:75
+#, php-format
+msgid "Successfully applied %s from the gift card."
+msgstr "Pomyślnie pobrano %s z karty podarunkowej. "
+
+#: partials/admin-form.php:148 partials/admin-form.php:154
+msgid "Synchronize"
+msgstr "Synchronizuj"
+
+#: partials/admin-form.php:150
+msgid ""
+"Synchronize all products, SKUs, customers, and orders that have not been "
+"synchronized yet."
+msgstr ""
+"Zsynchronizuj produkty, SKU, klientów i zamówienia, które nie zostały "
+"jeszcze zsynchronizowane.\n"
+
+#: src/Voucherify/Wordpress/Synchronization/Handlers/SynchronizationHandler.php:175
+msgid "Synchronize manually in the Voucherify Options."
+msgstr "Zsynchronizuj ręcznie w opcjach pluginu Voucherify."
+
+#: src/Voucherify/Wordpress/Handlers/CartTotalsHandler.php:364
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardFormRenderer.php:137
+msgid ""
+"The discount will be applied to subsequent subscription renewals. The "
+"quantity of discounted renewals is defined by the coupon redemption limit."
+msgstr ""
+"Rabat zostanie dodany do kolejnych odnowień subskrypcji. Liczba odnowień z "
+"rabatem jest ograniczona limitem wykorzystania kodu rabatowego."
+
+#: partials/admin-form.php:164
+msgid "This action may take several minutes."
+msgstr "Ta czynność może potrwać kilka minut."
+
+#: src/Voucherify/Wordpress/Blocks/BlockifiedCartIntegration.php:90
+msgid "This is some example data from the server"
+msgstr "Oto przykładowe dane z serwera"
+
+#: src/Voucherify/Wordpress/Handlers/UnlockOrderHandler.php:59
+msgid "Time to release: "
+msgstr "Czas do zdjęcia blokady"
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardFormRenderer.php:95
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardFormRenderer.php:96
+msgid "Total to pay"
+msgstr "Do zapłaty"
+
+#: src/Voucherify/Wordpress/ClientExtension.php:61
+msgid "Voucher was already removed"
+msgstr "Kupon został już usunięty"
+
+#. Name of the plugin
+msgid "Voucherify"
+msgstr ""
+
+#: partials/admin-form.php:36
+msgid "Voucherify integration enabled"
+msgstr "Włącz integrację z Voucherify"
+
+#: partials/admin-form.php:28
+msgid "Voucherify Options"
+msgstr "Opcje Voucherify"
+
+#: partials/admin-form.php:85
+msgid "Voucherify rollback enabled"
+msgstr "Włącz anulowanie wykorzystania kuponów w Voucherify"
+
+#: src/Voucherify/Wordpress/Handlers/UnlockOrderHandler.php:45
+msgid "Voucherify session"
+msgstr "Sesja Voucherify"
+
+#: src/Voucherify/Wordpress/Common/Services/OrderVoucherService.php:69
+#, php-format
+msgid "Voucherify: %s was rolled back"
+msgstr "Voucherify: wykorzystanie kodu %s zostało anulowane"
+
+#: src/Voucherify/Wordpress/Common/Services/OrderVoucherService.php:68
+#, php-format
+msgid "Voucherify: %s were rolled back"
+msgstr "Voucherify: wykorzystanie kuponów %s zostało anulowane"
+
+#: src/Voucherify/Wordpress/Handlers/DiscountVouchers/DiscountVoucherOrderVoucherService.php:107
+#, php-format
+msgid ""
+"WARNING: Code %s was validated successfully, payment might have been charged "
+"with the discount, but the coupon was not redeemed."
+msgstr ""
+"UWAGA: Kod rabatowy %s został poprawnie zweryfikowany, możliwe też, że "
+"płatność została pobrana uwzględniając rabat, natomiast nie został "
+"skutecznie zrealizowany po stronie Voucherify."
+
+#: src/Voucherify/Wordpress/Handlers/GiftCards/GiftCardOrderVoucherService.php:104
+#, php-format
+msgid ""
+"WARNING: Gift card %s was validated successfully, payment might have been "
+"charged with the discount, but the gift card was not redeemed."
+msgstr ""
+"UWAGA: Karta podarunkowa %s została poprawnie zweryfikowana, możliwe też, że "
+"płatność została pobrana uwzględniając rabat, natomiast nie została "
+"skutecznie zrealizowana po stronie Voucherify."
+
+#: src/Voucherify/Wordpress/Handlers/Promotions/PromotionOrderVoucherService.php:88
+#, php-format
+msgid ""
+"WARNING: Promotion %s was validated successfully, payment might have been "
+"charged with the discount, but the promotion was not redeemed."
+msgstr ""
+"UWAGA: Promocja %s została poprawnie zweryfikowana, możliwe też, że płatność "
+"została pobrana uwzględniając rabat, natomiast nie została skutecznie "
+"zrealizowana po stronie Voucherify."
+
+#: partials/admin-form.php:175
+msgid "You have changed App ID or App Secret Key"
+msgstr "App ID lub App Secret Key został zmieniony"
+
+#: assets/js/src/edit.js:9
+msgid "Your coupon form from voucherify will show up here"
+msgstr "Formularz dla kodów rabatowych z Voucherify pojawi się w tym miejscu"

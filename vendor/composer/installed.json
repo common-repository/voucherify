@@ -1,0 +1,70 @@
+{
+    "packages": [
+        {
+            "name": "rspective/voucherify",
+            "version": "v2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voucherifyio/voucherify-php-sdk.git",
+                "reference": "27519016ae690eb10eb3e1f4fd5825cbe2a90593"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voucherifyio/voucherify-php-sdk/zipball/27519016ae690eb10eb3e1f4fd5825cbe2a90593",
+                "reference": "27519016ae690eb10eb3e1f4fd5825cbe2a90593",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "php-mock/php-mock": "1.0.*",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "time": "2022-06-16T10:31:02+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Voucherify\\": "./src",
+                    "Voucherify\\Test\\Helpers\\": "./test/helpers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP SDK for Voucherify. Please visit: www.voucherify.io",
+            "homepage": "http://www.voucherify.io/",
+            "keywords": [
+                "rspective",
+                "voucher",
+                "voucherify"
+            ],
+            "support": {
+                "issues": "https://github.com/voucherifyio/voucherify-php-sdk/issues",
+                "source": "https://github.com/voucherifyio/voucherify-php-sdk/tree/v2.2.0"
+            },
+            "install-path": "../rspective/voucherify"
+        },
+        {
+            "name": "woocommerce/woocommerce",
+            "version": "8.6.1",
+            "version_normalized": "8.6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/woocommerce/woocommerce.git",
+                "reference": "8.6.1"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "install-path": "../woocommerce/woocommerce"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": [
+        "woocommerce/woocommerce"
+    ]
+}
